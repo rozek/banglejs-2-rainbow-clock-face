@@ -1,4 +1,4 @@
-# banglejs-2-rainbow-face #
+# banglejs-2-rainbow-clock-face #
 
 a simple clock face with numbers 1...12 in "rainbow" colors for analog clocks on a Bangle.js 2
 
@@ -9,7 +9,7 @@ This module draws a face with the numbers 1-12 (optionally surrounded by dots fo
 Within a clock implementation, the module may be used as follows:
 
 ```
-let ClockFace = require('https://raw.githubusercontent.com/rozek/banglejs-2-rainbow-face/main/ClockFace.js');
+let ClockFace = require('https://raw.githubusercontent.com/rozek/banglejs-2-rainbow-clock-face/main/ClockFace.js');
 ```
 
 Whenever needed, the module's exported `draw` method will then be invoked as follows:
